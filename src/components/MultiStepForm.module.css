@@ -1,0 +1,45 @@
+.btnCategory {
+    margin: 10px;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+.btnCategory:hover {
+    transition: 0.2s;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+
+
+.btnContainer {
+    padding: 10px;
+    background-color: #0000;
+    cursor: pointer;
+    
+}
+
+.btnContainerForm {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 8px;
+
+    color: #ffff;
+    cursor: pointer ;
+}
+
+.btnContainer p{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: #ffff;
+}
+
+.btnForm {
+    display: flex;
+    justify-content: space-between;
+}

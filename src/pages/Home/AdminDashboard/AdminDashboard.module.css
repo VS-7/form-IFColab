@@ -1,0 +1,63 @@
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+li {
+    list-style-type: none;
+}
+
+.cardDetail {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+  .btnList{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .user_list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user_list li {
+    margin-bottom: 10px;
+  }
+  
+  .user_list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .user_list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-submissions {
+    margin-top: 20px;
+  }
+  
+  .submission {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }

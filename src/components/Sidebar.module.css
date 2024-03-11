@@ -1,0 +1,70 @@
+/* Estilização base da sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    background-color: #fcfcfc;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    border-right: 1px solid #000000;
+    z-index: 10;
+  }
+  
+  /* Estilização dos links */
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  /* Link ativo ou hover */
+  .active,
+  li a:hover {
+    background-color: #fdfdfd;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .sidebar {
+      transform: translateX(-100%);
+    }
+  
+    .sidebar.open {
+      transform: translateX(0);
+    }
+  }
+
+  .menuButton {
+    display: none;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+  }
+  
+  @media (max-width: 768px) {
+    .menuButton {
+      display: block;
+    }
+  }
+  

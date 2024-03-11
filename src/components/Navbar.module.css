@@ -1,0 +1,29 @@
+body {
+  padding-top: 30px; /* Ajuste conforme a altura da sua navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  background-color: #fcfcfc; /* Exemplo de cor de fundo */
+  z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+}
+
+.navbar_container {
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px; /* Altura da navbar */
+}
+
+.navbar_logo {
+  color: rgb(0, 0, 0); /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-size: 0.8rem; /* Tamanho do texto */
+  margin-right: auto;
+}
